@@ -18,3 +18,6 @@ While this approach enables model training, it introduces business risks. The pr
 In a regulated financial environment, there is a fundamental trade-off between model interpretability and predictive performance. Simple models such as Logistic Regression combined with Weight of Evidence (WoE) transformations offer high transparency, ease of explanation, and regulatory acceptance. These models allow stakeholders to clearly understand how each feature contributes to credit risk and are easier to audit and maintain.
 
 On the other hand, more complex models such as Gradient Boosting or Random Forests often achieve higher predictive accuracy by capturing non-linear relationships and feature interactions. However, they are less interpretable and may raise regulatory concerns if decision logic cannot be clearly explained. In this project, multiple models are evaluated to balance predictive performance with interpretability, ensuring that the selected approach aligns with both business objectives and regulatory expectations.
+- Collected dataset for credit risk modeling
+- Reviewed dataset structure and variables
+- Checked for missing values and inconsistencies
