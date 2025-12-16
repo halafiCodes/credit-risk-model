@@ -1,6 +1,7 @@
 import pandas as pd
 import os
-
+import numpy as np
+import logging
 # Paths
 base_dir = os.path.dirname(__file__)
 features_path = os.path.join(base_dir, "../data/processed/processed_transactions.csv")
