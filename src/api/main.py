@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
+import numpy as np
 
 # -----------------------------
 # Pydantic models
