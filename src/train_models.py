@@ -8,6 +8,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import joblib
 import mlflow
 import mlflow.sklearn
+import warnings
+warnings.filterwarnings("ignore")
 
 
 def load_data():
