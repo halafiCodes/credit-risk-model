@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
+import numpy as np
 
 def create_high_risk_target(df):
     # Convert TransactionStartTime to datetime and remove timezone
